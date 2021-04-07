@@ -1,41 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <style>
-    .mystyle {
-      width: 500px;
-      height: 50px;
-      padding: 15px;
-      border: 1px solid black;
-    }
-    
-    .anotherClass {
-      background-color: coral;
-      color: white;
-    }
-    
-    .thirdClass {
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 25px;
-    }
-    </style>
-    </head>
-    <body>
-    
-    <p id="p">Click the button to add multiple classes to DIV.</p>
-    
-    <button onclick="myFunction()">Try it</button>
-    
-    <p><strong>Note:</strong> The classList property is not supported in Internet Explorer 9 and earlier versions.</p>
-    
-    <div id="myDIV">
-    I am a DIV element
-    </div>
-    
-    <script>
-    function myFunction() {
-      document.getElementById("p").classList.add("mystyle", "anotherClass", "thirdClass");
-    }
-    </script>
-    
-    </body>
-    </html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <h1>Salom, dunyo</h1>
+
+    <select class="cities">
+        <option selected value="Tashkent">Toshkent</option>
+        <option value="Andijon">Andijon</option>
+        <option value="Kokand">Qo'qon</option>
+
+    </select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Namoz nomi</th>
+                <th>Namoz vaqti</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            
+        </tbody>
+    </table> -->
+    .container-fluid.blue-bg
+    .container
+        h2.pb-3.pt-2 Vertical Left-Right Timeline
+        
+        //first section
+        .row.align-items-center.how-it-works
+            .col-2.text-center.bottom
+                .circle 1
+            .col-6
+                h5 Fully Responsive
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+        
+        
+        //path between 1-2
+        .row.timeline
+            .col-2
+                .corner.top-right
+            .col-8
+                hr
+            .col-2
+                .corner.left-bottom
+        
+        //second section
+        .row.align-items-center.justify-content-end.how-it-works
+            .col-6.text-right
+                h5 Using Bootstrap
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+            .col-2.text-center.full
+                .circle 2
+        
+        //path between 2-3
+        .row.timeline
+            .col-2
+                .corner.right-bottom
+            .col-8
+                hr
+            .col-2
+                .corner.top-left
+        
+        //third section
+        .row.align-items-center.how-it-works
+            .col-2.text-center.top
+                .circle 3
+            .col-6
+                h5 Now with Pug and Sass
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna, iaculis in ligula et, posuere interdum lectus.
+
+    <script src="./main.js"></script>
+</body>
+</html>
